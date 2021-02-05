@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "BigShouldersDisplay-Regular";
+  font-display: swap;
+  src: url("../fonts/BigShouldersDisplay-Regular.woff") format("woff"), url("../fonts/BigShouldersDisplay-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: #8155e9;
+}
+
+h1 {
+  color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+p {
+  font-size: 20px;
+}
+
+.image {
+  width: 80%;
+}
+
+.img {
+  width: 700px;
+  height: 500px;
+}
+
+div {
+  font-size: 30px;
+}
+
+@media (max-width: 767px) {
+  p {
+    font-size: 16px;
+  }
+
+  div {
+    font-size: 20px;
+  }
+}

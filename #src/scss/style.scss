@@ -1,0 +1,29 @@
+@import "mixin";
+@import "fonts";
+
+body {
+   background-color: rgb(129, 85, 233);
+}
+h1 {
+   color: red;
+   display: flex;
+}
+p {
+   font-size: 20px;
+   @media (max-width: 767px) {
+      font-size: 16px;
+   }
+}
+.image {
+   width: 80%;
+}
+.img {
+   width: 700px;
+   height: 500px;
+}
+div {
+   font-size: 30px;
+   @media (max-width: 767px) {
+      font-size: 20px;
+   }
+}
